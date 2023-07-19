@@ -15,7 +15,8 @@ export default defineConfig({
     resolve:{
         alias:{
             //ricordarsi di portarlo anche in app.js (lo trovi nella cartella resources/js/app.js) 
-            //esempio: '~resources' : '/resources/',
+            //esempio: 
+            '~resources' : '/resources/',
 
             '~bootstrap' : path.resolve(__dirname, 'node_modules/bootstrap'),
         }
